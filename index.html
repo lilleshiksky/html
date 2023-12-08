@@ -158,14 +158,11 @@
             setLanguage(newLanguage);
         }
     </script>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <meta http-equiv="ETag" content="your-unique-version">
+
 </head>
 <body>
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
+<script>
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();
    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
@@ -182,12 +179,12 @@
 <!-- /Yandex.Metrika counter -->
     <nav>
         <ul>
-           <li><a href="index.html">Главная</a></li>
-            <li><a href="Каталог.html">Каталог</a></li>
-            <li><a href="Контакты.html">Контакты</a></li>
-            <li><a href="Местоположение.html">Местоположение</a></li>
-            <li><a href="admin.html">Администрация</a></li>
-        </ul>
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="Каталог.html">Каталог</a></li>
+    <li><a href="Контакты.html">Контакты</a></li>
+    <li><a href="Местоположение.html">Местоположение</a></li>
+    <li><a href="admin.html">Администрация</a></li>
+</ul>
     </nav>
  <div id="language-selector">
         <button onclick="toggleLanguage()">Toggle Language</button>
@@ -199,7 +196,9 @@
     <h2>Широкий выбор стилей и цветов носков</h2>
     <img src="Лого.png" alt="Логотип организации" width="1200" height="700">
 
-    <marquee behavior="scroll" direction="left">Заказывай только у нас</marquee>
+    <div class="marquee-container">
+    <p class="marquee-text">Заказывай только у нас</p>
+</div>
 
     <h2>Наши преимущества:</h2>
     <ul>
